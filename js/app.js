@@ -8,6 +8,10 @@ app.config(function($routeProvider) {
     templateUrl: 'partials/site.html',
     controller: 'SiteController'
   })
+  .when('/secondpage', {
+    templateUrl: 'partials/secondpage.html',
+    controller: 'SiteController'
+  })
     .otherwise({
       redirectTo: '/'
     });
